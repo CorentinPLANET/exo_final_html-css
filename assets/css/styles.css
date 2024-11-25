@@ -1,0 +1,11 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
