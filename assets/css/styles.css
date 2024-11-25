@@ -62,3 +62,12 @@ span {
   grid-column: 9/11;
   grid-row: 4/6;
 }
+header {
+  background: antiquewhite;
+}
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
