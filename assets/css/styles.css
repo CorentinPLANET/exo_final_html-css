@@ -6,7 +6,8 @@
   margin: 10vw;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(5, 20vh);
+  grid-template-rows: repeat(5, 1fr);
+  height:60vh;
   gap: 10px;
 }
 span {
@@ -70,4 +71,19 @@ h2 {
   display: flex;
   justify-content: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    position: sticky;
 }
