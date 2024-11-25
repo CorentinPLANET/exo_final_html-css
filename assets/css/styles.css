@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
