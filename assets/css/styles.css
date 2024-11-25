@@ -4,7 +4,7 @@ nav ul {
     justify-content: space-around;
 }
 
-footer{
+footer p{
     display: flex;
     justify-content: center;
     position: sticky;
